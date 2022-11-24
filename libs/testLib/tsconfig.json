@@ -1,0 +1,19 @@
+{
+	"compilerOptions": {
+		"module": "commonjs",
+		"target": "es6",
+		"moduleResolution": "node",
+		"declaration": true,
+		"declarationMap": true,
+		"outDir": "dist",
+		"composite": true,
+		"strict": true,
+		"explainFiles": true,
+		"listEmittedFiles": true,
+		"traceResolution": true,
+		"rootDir": ".",
+		"esModuleInterop": true /* Enables emit interoperability between CommonJS and ES Modules via creation of namespace objects for all imports. Implies 'allowSyntheticDefaultImports'. */
+	},
+	"include": ["**/*"]
+	// "include": ["src/**/*"]
+}
